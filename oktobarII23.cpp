@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 	int partner_rank;
 
 	for (int i = 0; i < log2(size); i++) {
-			partner_rank = rank ^ (1 << i);
+			partner_rank = rank ^ (1 << i); //xor operator se obeležava sa ^
 
 		//if (partner_rank < size) {
 			MPI_Send(&data, 1, MPI_INT, partner_rank, 0, MPI_COMM_WORLD);
