@@ -1,0 +1,39 @@
+# distribuirani oktobar 2 2023.
+
+PS C:\Users\Aca\source\repos\532023\532023> mpiexec.exe -n 8 "C:\Users\Aca\source\repos\532023\x64\Debug\532023.exe"
+Process 5 exchanges data with process 4: My data: 5, Partner's data: 4
+rank 5  data: 9
+Process 5 exchanges data with process 7: My data: 9, Partner's data: 13
+Process 5 exchanges data with process 1: My data: 22, Partner's data: 6
+rank 5  data: 15
+Process 1 exchanges data with process 0: My data: 1, Partner's data: 0
+rank 1  data: 1
+Process 1 exchanges data with process 3: My data: 1, Partner's data: 5
+Process 1 exchanges data with process 5: My data: 6, Partner's data: 22
+Process 0 exchanges data with process 1: My data: 0, Partner's data: 1
+Process 0 exchanges data with process 2: My data: 1, Partner's data: 5
+Process 0 exchanges data with process 4: My data: 6, Partner's data: 22
+Process 7 exchanges data with process 6: My data: 7, Partner's data: 6
+rank 7  data: 13
+Process 7 exchanges data with process 5: My data: 13, Partner's data: 9
+rank 7  data: 22
+Process 7 exchanges data with process 3: My data: 22, Partner's data: 6
+rank 7  data: 28
+Process 3 exchanges data with process 2: My data: 3, Partner's data: 2
+rank 3  data: 5
+Process 3 exchanges data with process 1: My data: 5, Partner's data: 1
+rank 3  data: 6
+Process 3 exchanges data with process 7: My data: 6, Partner's data: 22
+Process 2 exchanges data with process 3: My data: 2, Partner's data: 3
+Process 2 exchanges data with process 0: My data: 5, Partner's data: 1
+rank 2  data: 3
+Process 2 exchanges data with process 6: My data: 6, Partner's data: 22
+Process 6 exchanges data with process 7: My data: 6, Partner's data: 7
+Process 6 exchanges data with process 4: My data: 13, Partner's data: 9
+rank 6  data: 15
+Process 6 exchanges data with process 2: My data: 22, Partner's data: 6
+rank 6  data: 21
+Process 4 exchanges data with process 5: My data: 4, Partner's data: 5
+Process 4 exchanges data with process 6: My data: 9, Partner's data: 13
+Process 4 exchanges data with process 0: My data: 22, Partner's data: 6
+rank 4  data: 10
