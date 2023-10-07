@@ -1,4 +1,4 @@
-///oktobar 2 2023.///
+///oktobar 2 2023. hiperkub///
 #include <stdio.h>
 #include <mpi.h>
 #include <math.h>
