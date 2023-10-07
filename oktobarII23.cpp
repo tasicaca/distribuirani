@@ -17,8 +17,9 @@ int main(int argc, char** argv) {
 
 	for (int i = 0; i < log2(size); i++) {
 			partner_rank = rank ^ (1 << i); //xor operator se obeležava sa ^
-
-		//if (partner_rank < size) {
+		//proces razmenjuje podatke sa onim procesom koji se razlikuje za 1 bit, u prvoj iteraciji (001) na poziciji najnižeg bita, u drugoj iteraciji na poziciji srednjeg bita i u 
+		//trecoj iteraciji na poziciji bita najveće težine (100)
+		
 			MPI_Send(&data, 1, MPI_INT, partner_rank, 0, MPI_COMM_WORLD);
 			MPI_Recv(&partner_data, 1, MPI_INT, partner_rank, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
