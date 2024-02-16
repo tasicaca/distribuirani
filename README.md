@@ -1,1 +1,1 @@
-# distribuirani
+# distribuirani sistemi , elfak
